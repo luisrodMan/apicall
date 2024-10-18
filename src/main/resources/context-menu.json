@@ -1,0 +1,46 @@
+{
+    "items": [
+        {
+            "action": "addrestrequest",
+            "filters": [
+                "one rest-project|rest-folder"
+            ],
+            "text": "Add Request"
+        },
+        {
+            "action": "addrestfolder",
+            "filters": [
+                "one rest-project|rest-folder"
+            ],
+            "text": "Add Folder"
+        },
+        {
+            "action": "renameNode",
+            "filters": [
+                "one rest-project|rest-folder|rest-request"
+            ],
+            "text": "Rename"
+        },
+        {
+            "action": "duplicateResource",
+            "filters": [
+                "all rest-project|rest-folder|rest-request"
+            ],
+            "text": "Duplicate"
+        },
+        {
+            "action": "deleteResource",
+            "filters": [
+                "all rest-project|rest-folder|rest-request"
+            ],
+            "text": "Delete"
+        },
+        {
+            "action": "export",
+            "filters": [
+                "one rest-project"
+            ],
+            "text": "Export"
+        }
+    ]
+}

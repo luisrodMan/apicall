@@ -1,0 +1,40 @@
+{
+    "menu": [
+        {
+            "text": "File",
+            "Items": [
+                {
+                    "text": "New",
+                    "items": [
+                        {
+                            "text": "Collection",
+                            "action": "newCollection"
+                        },
+                        {
+                            "text": "Environment",
+                            "action": "newEnvironment"
+                        }
+                    ]
+                },
+                {
+                    "text": "Import",
+                    "items": [
+                        {
+                            "text": "Collection",
+                            "action": "importCollection"
+                        },
+                        {
+                            "text": "Environment",
+                            "action": "importEnvironment"
+                        }
+                    ]
+                },
+                {
+                    "text": "Execute",
+                    "action": "execute"
+                }
+            ]
+        }
+    ]
+    
+}

@@ -1,0 +1,34 @@
+{
+    "keys": [
+        {
+            "name": "Save",
+            "binding": "ctrl S",
+            "command": "save"
+        },
+        {
+            "name": "New",
+            "binding": "ctrl N",
+            "command": "new"
+        },
+        {
+            "name": "Close",
+            "binding": "ctrl W",
+            "command": "closeView"
+        },
+        {
+            "name": "Execute",
+            "binding": "ctrl ENTER",
+            "command": "execute"
+        },
+        {
+            "name": "Next Editor",
+            "binding": "ctrl TAB",
+            "command": "nextEditor"
+        },
+        {
+            "name": "Previous Editor",
+            "binding": "ctrl SHIFT TAB",
+            "command": "previousEditor"
+        }
+    ]
+}
